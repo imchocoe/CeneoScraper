@@ -14,7 +14,7 @@
 ## Struktura opinii w serwisie Ceneo.pl
 |składowa|zmienna|selektor|
 |--------|-------|--------|
-|opinia|review|div.js_product-reviev|
+|opinia|review|div.js_product-review:not(.user-post--highlight)|
 |identyfikator opinii|review_id|['data-entry-id']|
 |autora|author|span.user-post__author-name|
 |rekomendację|recommendation|span.user-post__author-recomendation > em|
